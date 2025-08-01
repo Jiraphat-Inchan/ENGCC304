@@ -1,0 +1,188 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="EX6XoV8yizhQJbXR_hRk">
+    <mxGraphModel dx="1014" dy="1653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-1" target="tiHEbC1mKh7d6MbMWh2T-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="-130" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-2" target="tiHEbC1mKh7d6MbMWh2T-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-2" value="รับค่าตัวเลข(n)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-3" target="tiHEbC1mKh7d6MbMWh2T-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-3" target="tiHEbC1mKh7d6MbMWh2T-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-3" value="&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(12, 67, 96));&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ตัวเลข&lt;/span&gt;หารลงตัวหรือไม่่&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(12, 67, 96));&quot;&gt;(n % 2 == 0)&lt;/font&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="310" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-61" target="tiHEbC1mKh7d6MbMWh2T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-4" value="ป้อนตัวเลข" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-9" target="tiHEbC1mKh7d6MbMWh2T-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-9" value="แสดงข้อความเลขคู่ตั้งแต่ที่ตัวเลขป้อน ลงมาถึง 0 คือ&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-10" target="tiHEbC1mKh7d6MbMWh2T-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-10" value="แสดงข้อความเลขคี่ตั้งแต่ที่ตัวเลขป้อน ลงมาถึง 0 คือ&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-16" target="tiHEbC1mKh7d6MbMWh2T-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-16" target="tiHEbC1mKh7d6MbMWh2T-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="630" />
+              <mxPoint x="120" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-16" value="&lt;div&gt;ตรวจสอบอีกครั้งว่าตัวเลขนั้นเป็นเลขคู่หรือไม่&lt;/div&gt;&lt;div&gt;&amp;nbsp;(&lt;code&gt;i % 2 == 0&lt;/code&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="560" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-18" target="tiHEbC1mKh7d6MbMWh2T-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-18" value="i &amp;gt;= 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-21" target="tiHEbC1mKh7d6MbMWh2T-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-21" target="tiHEbC1mKh7d6MbMWh2T-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="625" />
+              <mxPoint x="730" y="1026" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-21" value="ตรวจสอบว่าตัวเลขนั้นเป็นเลขคี่หรือไม่&amp;nbsp;&lt;div&gt;(&lt;code&gt;i % 2 != 0&lt;/code&gt;)&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="550" width="160" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-24" target="tiHEbC1mKh7d6MbMWh2T-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-24" value="แสดงตัวเลขคู่" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-25" target="tiHEbC1mKh7d6MbMWh2T-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-25" value="แสดงตัวเลขคู่" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-26" target="tiHEbC1mKh7d6MbMWh2T-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-26" value="i = n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-27" target="tiHEbC1mKh7d6MbMWh2T-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-27" value="i = 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-28" target="tiHEbC1mKh7d6MbMWh2T-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-28" value="i &amp;lt;= n" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-32" target="tiHEbC1mKh7d6MbMWh2T-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="910" />
+              <mxPoint x="350" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-32" value="&amp;nbsp;i--" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-34" target="tiHEbC1mKh7d6MbMWh2T-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="900" />
+              <mxPoint x="500" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-34" value="i++" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-35" target="tiHEbC1mKh7d6MbMWh2T-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="215" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-36" target="tiHEbC1mKh7d6MbMWh2T-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-36" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="605" y="420" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-42" target="tiHEbC1mKh7d6MbMWh2T-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="409" y="1020" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-43" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="369" y="1080" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-4" target="tiHEbC1mKh7d6MbMWh2T-61">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="70" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-61" target="tiHEbC1mKh7d6MbMWh2T-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-61" value="ตรวจตัวเลขหรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="100" width="125" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="tiHEbC1mKh7d6MbMWh2T-64" target="tiHEbC1mKh7d6MbMWh2T-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="657" y="145" />
+              <mxPoint x="657" y="140" />
+              <mxPoint x="760" y="140" />
+              <mxPoint x="760" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tiHEbC1mKh7d6MbMWh2T-64" value="กรุณากรอกตัวเลขเท่านั้น" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
