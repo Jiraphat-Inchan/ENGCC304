@@ -1,7 +1,6 @@
 #include <stdio.h> 
-#include <stdlib.h> e
+#include <stdlib.h> 
 
-ะ
 int isPrime(int num) {
     if (num < 2) {
         return 0; 
