@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="L74MGoopqzpEZ6LSKyZI">
+    <mxGraphModel dx="1426" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-1" value="เริ่มต้น" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-2" value="ประกาศตัวแปร Name (ข้อความ), Age = 0 (จำนวนเต็ม)" style="shape=process;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-3" value="แสดงผล: &#39;Enter your name: &#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="360" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-4" value="รับค่า Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-5" value="แสดงผล: &#39;Enter your age: &#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="520" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-6" value="รับค่า Age" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="600" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-7" value="แสดงผล: &#39;- - - - - -&#39;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-8" value="แสดงผล: &#39;Hello &#39; ตามด้วยค่า Name" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="760" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-9" value="แสดงผล: &#39;Age = &#39; ตามด้วยค่า Age" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="330" y="840" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-10" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="920" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-11" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-1" target="A_Eq2xpSv6D3nquz0iMj-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="220" as="sourcePoint" />
+            <mxPoint x="430" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-12" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-2" target="A_Eq2xpSv6D3nquz0iMj-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-13" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-3" target="A_Eq2xpSv6D3nquz0iMj-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="400" as="sourcePoint" />
+            <mxPoint x="430" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-14" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-4" target="A_Eq2xpSv6D3nquz0iMj-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-15" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-5" target="A_Eq2xpSv6D3nquz0iMj-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="560" as="sourcePoint" />
+            <mxPoint x="430" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-16" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-6" target="A_Eq2xpSv6D3nquz0iMj-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="640" as="sourcePoint" />
+            <mxPoint x="430" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-17" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-7" target="A_Eq2xpSv6D3nquz0iMj-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="720" as="sourcePoint" />
+            <mxPoint x="430" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-18" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-8" target="A_Eq2xpSv6D3nquz0iMj-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="800" as="sourcePoint" />
+            <mxPoint x="430" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A_Eq2xpSv6D3nquz0iMj-19" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A_Eq2xpSv6D3nquz0iMj-9" target="A_Eq2xpSv6D3nquz0iMj-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="880" as="sourcePoint" />
+            <mxPoint x="430" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
