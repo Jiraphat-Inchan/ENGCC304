@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="i6Q_pLxWZj6ewo3af9Lq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xfUx9OselL72wnFORmuh-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="200" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-2" value="ประกาศตัวแปร:&lt;br&gt;ID, ชั่วโมง (hours),&lt;br&gt;อัตราค่าจ้าง (rate),&lt;br&gt;เงินเดือนรวม (salary)" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="270" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-1" target="xfUx9OselL72wnFORmuh-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-4" value="แสดงข้อความและ&lt;br&gt;รับค่า ID พนักงาน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-2" target="xfUx9OselL72wnFORmuh-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="330" as="sourcePoint" />
+            <mxPoint x="440" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-6" value="แสดงข้อความและ&lt;br&gt;รับค่า ชั่วโมงทำงาน (hours)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-4" target="xfUx9OselL72wnFORmuh-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-8" value="แสดงข้อความและ&lt;br&gt;รับค่า อัตราค่าจ้าง (rate)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-9" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-6" target="xfUx9OselL72wnFORmuh-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-10" value="คำนวณเงินเดือนรวม:&lt;br&gt;salary = hours * rate" style="shape=process;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-11" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-8" target="xfUx9OselL72wnFORmuh-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="600" as="sourcePoint" />
+            <mxPoint x="440" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-12" value="แสดงผลลัพธ์:&lt;br&gt;ID พนักงาน" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-10" target="xfUx9OselL72wnFORmuh-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="690" as="sourcePoint" />
+            <mxPoint x="440" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-14" value="แสดงผลลัพธ์:&lt;br&gt;เงินเดือนรวม (salary)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-15" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-12" target="xfUx9OselL72wnFORmuh-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="780" as="sourcePoint" />
+            <mxPoint x="440" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-16" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="900" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xfUx9OselL72wnFORmuh-17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="xfUx9OselL72wnFORmuh-14" target="xfUx9OselL72wnFORmuh-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="870" as="sourcePoint" />
+            <mxPoint x="440" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
