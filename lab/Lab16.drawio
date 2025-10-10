@@ -1,0 +1,281 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="หน้า-1" id="JAtim3gwPv2wbX15YiME">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-1" value="เริ่ม" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="30" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-2" value="กำหนดค่าเริ่มต้น:&#xa;arr = {15, 7, 25, 3, 73, 32, 45}&#xa;n = 7, target = 32&#xa;pos_of_32 = -1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-3" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-1" target="VpsRoXnAVwTWsBZwG4X2-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="80" as="sourcePoint" />
+            <mxPoint x="525" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-4" value="แสดงผล: &quot;Old Series : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="190" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-5" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-2" target="VpsRoXnAVwTWsBZwG4X2-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="170" as="sourcePoint" />
+            <mxPoint x="525" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-6" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-7" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-4" target="VpsRoXnAVwTWsBZwG4X2-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="230" as="sourcePoint" />
+            <mxPoint x="525" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-8" value="i &lt; n (i &lt; 7) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="310" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-9" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-6" target="VpsRoXnAVwTWsBZwG4X2-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="290" as="sourcePoint" />
+            <mxPoint x="525" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-10" value="แสดงผล arr[i] และ คอมม่า (ถ้าไม่ใช่ตัวสุดท้าย)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="390" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-11" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-8" target="VpsRoXnAVwTWsBZwG4X2-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="370" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-12" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="450" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-13" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-10" target="VpsRoXnAVwTWsBZwG4X2-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="430" as="sourcePoint" />
+            <mxPoint x="525" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-14" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-12" target="VpsRoXnAVwTWsBZwG4X2-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="370" y="465" />
+              <mxPoint x="370" y="400" />
+              <mxPoint x="370" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-15" value="แสดงผล: ขึ้นบรรทัดใหม่" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-16" value="เท็จ" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-8" target="VpsRoXnAVwTWsBZwG4X2-15">
+          <mxGeometry x="-0.4444" y="20" relative="1" as="geometry">
+            <mxPoint x="525" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="600" y="340" />
+              <mxPoint x="600" y="340" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-17" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-18" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-15" target="VpsRoXnAVwTWsBZwG4X2-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="705" y="360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="705" y="505" />
+              <mxPoint x="525" y="505" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-19" target="VpsRoXnAVwTWsBZwG4X2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-19" value="i &lt; n - 1 (i &lt; 6) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="570" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-20" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-17" target="VpsRoXnAVwTWsBZwG4X2-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="550" as="sourcePoint" />
+            <mxPoint x="525" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-21" value="j = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="650" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-22" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-19" target="VpsRoXnAVwTWsBZwG4X2-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="630" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-23" value="j &lt; n - i - 1 ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="700" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-24" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-21" target="VpsRoXnAVwTWsBZwG4X2-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="680" as="sourcePoint" />
+            <mxPoint x="525" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-25" value="arr[j] &gt; arr[j + 1] ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="780" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-26" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-23" target="VpsRoXnAVwTWsBZwG4X2-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-27" value="สลับค่า:&#xa;temp = arr[j]&#xa;arr[j] = arr[j+1]&#xa;arr[j+1] = temp" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="860" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-28" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-25" target="VpsRoXnAVwTWsBZwG4X2-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="840" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-29" target="VpsRoXnAVwTWsBZwG4X2-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-29" value="j = j + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="940" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-30" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-27" target="VpsRoXnAVwTWsBZwG4X2-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="525" y="920" as="sourcePoint" />
+            <mxPoint x="525" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-31" value="เท็จ" style="edgeStyle=orthogonalEdgeStyle;html=1;align=right;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-25" target="VpsRoXnAVwTWsBZwG4X2-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="810" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="810" />
+              <mxPoint x="650" y="955" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-33" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="715" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-34" value="เท็จ" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-23" target="VpsRoXnAVwTWsBZwG4X2-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="730" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="630" y="730" />
+              <mxPoint x="630" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-35" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-33" target="VpsRoXnAVwTWsBZwG4X2-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="745" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="690" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-36" value="แสดงผล: &quot;New Series : &quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="229" y="580" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-38" value="i = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="650" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-39" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-36" target="VpsRoXnAVwTWsBZwG4X2-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="620" as="sourcePoint" />
+            <mxPoint x="309" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-40" value="i &lt; n (i &lt; 7) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-41" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-38" target="VpsRoXnAVwTWsBZwG4X2-40">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="680" as="sourcePoint" />
+            <mxPoint x="309" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-42" value="แสดงผล arr[i] และ คอมม่า" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="239" y="780" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-43" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-40" target="VpsRoXnAVwTWsBZwG4X2-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="760" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-44" value="arr[i] == target (32) ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-45" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-42" target="VpsRoXnAVwTWsBZwG4X2-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="820" as="sourcePoint" />
+            <mxPoint x="309" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-46" value="pos_of_32 = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="920" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-47" value="จริง" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-44" target="VpsRoXnAVwTWsBZwG4X2-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="309" y="900" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-48" target="VpsRoXnAVwTWsBZwG4X2-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="995" />
+              <mxPoint x="230" y="735" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-48" value="i = i + 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="980" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-49" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-46" target="VpsRoXnAVwTWsBZwG4X2-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="309" y="950" as="sourcePoint" />
+            <mxPoint x="309" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-50" value="เท็จ" style="edgeStyle=orthogonalEdgeStyle;html=1;align=right;verticalAlign=bottom;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-44" target="VpsRoXnAVwTWsBZwG4X2-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="379" y="870" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="399" y="870" />
+              <mxPoint x="399" y="995" />
+              <mxPoint x="354" y="995" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-52" value="แสดงผล: ขึ้นบรรทัดใหม่" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="715" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-54" value="แสดงผล: &quot;Pos of 32 : &quot; ตามด้วย pos_of_32" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="5" y="800" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-55" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-52" target="VpsRoXnAVwTWsBZwG4X2-54">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="755" as="sourcePoint" />
+            <mxPoint x="125" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-56" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="67.5" y="870" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VpsRoXnAVwTWsBZwG4X2-57" value="" style="endArrow=classic;html=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="VpsRoXnAVwTWsBZwG4X2-54" target="VpsRoXnAVwTWsBZwG4X2-56">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="125" y="845" as="sourcePoint" />
+            <mxPoint x="125" y="875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
